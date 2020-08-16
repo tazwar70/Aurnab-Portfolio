@@ -9,6 +9,8 @@
 
 :root {
 	--navbar-background: #2e3842;
+	--button-color: #3b96b9;
+	--button-color-active: #407a91;
 	--fs-navbar: 3rem;
 }
 
@@ -2623,7 +2625,7 @@ input[type="button"].primary,
 button.primary,
 .button.primary {
 	/*background-color: #ed4933;*/
-	background-color: #4db6ac;
+	background-color: var(--button-color);
 	box-shadow: none !important;
 	color: #ffffff !important;
 }
@@ -2634,7 +2636,7 @@ input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
 	/*background-color: #ef5e4a !important;*/
-	background-color: #00867d !important;
+	background-color: var(--button-color) !important;
 }
 
 input[type="submit"].primary:active,
@@ -2643,7 +2645,7 @@ input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
 	/*background-color: #eb341c !important;*/
-	background-color: #82e9de !important;
+	background-color: var(--button-color-active) !important;
 }
 
 input[type="submit"].disabled,
