@@ -8,6 +8,6 @@ document.getElementById('footer').innerHTML =
     <li><a href="https://www.instagram.com/tazwar70"><i class="fab fa-instagram"></i></a></li>
 </ul>
 <ul class="copyright">
-    <li>&copy; Aurnab Islam</li><li>Sources: <a href="sources.html">Click Here</a></li>
+    <li>&copy; Aurnab Islam</li>
 </ul>
 `
